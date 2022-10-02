@@ -15,3 +15,32 @@ function getFreeFood() {
       // food_result.innerHTML = `<img src=${data.image} alt="random-food-image" />`;
     });
 }
+
+// const content = document.querySelector("#display");
+// const button = document.querySelector("#btn1");
+
+// button.addEventListener("click", function () {
+//   getRandomFood();
+// });
+
+// function getRandomFood() {
+//   const ajax = new XMLHttpRequest();
+//   const url = "https://foodish-api.herokuapp.com/api/";
+
+//   ajax.open("GET", url, true);
+
+//   ajax.onreadystatechange = function () {
+//     if (this.status === 200 && this.readyState === 4) {
+//       console.log(this.response);
+//       let data = JSON.parse(this.response);
+//       content.innerHTML = `${data.image}`;
+//     } else {
+//       this.onerror = onerror();
+//     }
+//   };
+//   ajax.send();
+// }
+
+// function onerror() {
+//   content.textContent = "There was an error!";
+// }
